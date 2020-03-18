@@ -55,18 +55,18 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
         </dependency>
-        <!--<dependency>
+        <dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring-boot-starter</artifactId>
             <version>${tk.mybatis.version}</version>
-            &lt;!&ndash;<exclusions>
+            <!--<exclusions>
                 <exclusion>
                     <groupId>javax.persistence</groupId>
                     <artifactId>persistence-api</artifactId>
                 </exclusion>
-            </exclusions>&ndash;&gt;
-        </dependency>-->
-        <!--<dependency>
+            </exclusions>-->
+        </dependency>
+        <dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
             <version>1.2.7</version>
@@ -83,7 +83,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
-        </dependency>-->
+        </dependency>
     </dependencies>
 
     <build>
